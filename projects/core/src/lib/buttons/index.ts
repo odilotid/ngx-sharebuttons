@@ -17,3 +17,4 @@ export * from './copy';
 export * from './mix';
 export * from './line';
 export * from './base';
+export * from './qq';

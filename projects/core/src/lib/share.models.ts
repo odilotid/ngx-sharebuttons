@@ -63,6 +63,7 @@ export interface IShareButtons {
   email?: IShareButton;
   print?: IShareButton;
   copy?: IShareButton;
+  qq?: IShareButton;
 }
 
 /**

@@ -16,7 +16,8 @@ import {
   TwitterButton,
   VkButton,
   WhatsappButton,
-  XingButton
+  XingButton,
+  QqButton
 } from './buttons';
 import { IShareButtons } from './share.models';
 
@@ -154,5 +155,12 @@ export const SHARE_BUTTONS: IShareButtons = {
       successLabel: 'Copied',
       successIcon: 'check'
     }
+  },
+  qq: {
+    create: (a, b, c, d, e, f, g, h) => new QqButton(a, b, c, d, e, f, g, h),
+    text: 'QQ',
+    icon: ['fab', 'qq'],
+    color: '#000',
+    ariaLabel: 'Share on QQ'
   },
 };
