@@ -6,10 +6,10 @@
 
 [![Demo](https://img.shields.io/badge/demo-online-ed1c46.svg)](https://murhafsousli.github.io/ngx-sharebuttons/)
 [![npm](https://img.shields.io/badge/stackblitz-online-orange.svg)](https://stackblitz.com/edit/ngx-sharebuttons)
-[![NPM](https://img.shields.io/npm/v/@ngx-share/core.svg?maxAge=2592000?style=plastic)](https://www.npmjs.com/package/@ngx-share/core)
+[![NPM](https://img.shields.io/npm/v/@odilo/core.svg?maxAge=2592000?style=plastic)](https://www.npmjs.com/package/@odilo/core)
 [![Build Status](https://travis-ci.org/MurhafSousli/ngx-sharebuttons.svg?branch=master)](https://travis-ci.org/MurhafSousli/ngx-sharebuttons)
-[![npm](https://img.shields.io/npm/dt/@ngx-share/core.svg?maxAge=2592000?style=plastic)](https://www.npmjs.com/package/@ngx-share/core)
-[![npm](https://img.shields.io/npm/dm/@ngx-share/core.svg)](https://www.npmjs.com/package/@ngx-share/core)
+[![npm](https://img.shields.io/npm/dt/@odilo/core.svg?maxAge=2592000?style=plastic)](https://www.npmjs.com/package/@odilo/core)
+[![npm](https://img.shields.io/npm/dm/@odilo/core.svg)](https://www.npmjs.com/package/@odilo/core)
 [![LICENSE](https://img.shields.io/npm/l/express.svg?maxAge=2592000)](https://github.com/MurhafSousli/ngx-sharebuttons/blob/master/LICENSE)
 
 
@@ -21,9 +21,9 @@ For the documentation see the [WIKI](https://github.com/MurhafSousli/ngx-sharebu
 
 The plugin is divided into 3 modules to make it possible to include only the stuff you use.
 
-- **@ngx-share/core** - Share button directive to convert any element to a share button, check the [compodoc](https://murhafsousli.github.io/ngx-sharebuttons/core).
-- **@ngx-share/button** - Share button component to add buttons individually, check the [compodoc](https://murhafsousli.github.io/ngx-sharebuttons/button).
-- **@ngx-share/buttons** - Share buttons component to add a collection of share buttons, check the [compodoc](https://murhafsousli.github.io/ngx-sharebuttons/buttons).
+- **@odilo/core** - Share button directive to convert any element to a share button, check the [compodoc](https://murhafsousli.github.io/ngx-sharebuttons/core).
+- **@odilo/button** - Share button component to add buttons individually, check the [compodoc](https://murhafsousli.github.io/ngx-sharebuttons/button).
+- **@odilo/buttons** - Share buttons component to add a collection of share buttons, check the [compodoc](https://murhafsousli.github.io/ngx-sharebuttons/buttons).
 
 ## Available buttons
 
@@ -32,8 +32,8 @@ The plugin is divided into 3 modules to make it possible to include only the stu
 
 ## Older versions
 
-- For `@ngx-share/buttons` v6.x (Angular 6) See the [WIKI documentation](https://github.com/MurhafSousli/ngx-sharebuttons/wiki) + see the [changelog](/CHANGELOG.MD)
-- For `@ngx-share/buttons` v5.x (Angular 5), See this [documentation](/README_V5.md)
+- For `@odilo/buttons` v6.x (Angular 6) See the [WIKI documentation](https://github.com/MurhafSousli/ngx-sharebuttons/wiki) + see the [changelog](/CHANGELOG.MD)
+- For `@odilo/buttons` v5.x (Angular 5), See this [documentation](/README_V5.md)
 - For `ngx-sharebuttons` v4.x (Angular 5), See this [documentation](/README_V4.md)
 - For `ngx-sharebuttons` v3.x (Angular 2 & 4), See this [documentation](/README_V3.md)
 

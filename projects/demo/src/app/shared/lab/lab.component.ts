@@ -1,7 +1,7 @@
 import { Component, Input, AfterViewInit, AfterContentChecked, OnDestroy, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { MatDialog } from '@angular/material';
-import { ShareService, SHARE_BUTTONS } from '@ngx-share/core';
+import { ShareService, SHARE_BUTTONS } from '@odilo/core';
 import { Subject, Subscription, of } from 'rxjs';
 import { tap, take, switchMap, debounceTime, delay, distinctUntilChanged, filter } from 'rxjs/operators';
 import { LocalStorage } from '@ngx-pwa/local-storage';

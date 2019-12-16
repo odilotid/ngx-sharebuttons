@@ -1,6 +1,6 @@
 import { ModuleWithProviders, NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ShareModule, ShareButtonsConfig, SHARE_BUTTONS_CONFIG } from '@ngx-share/core';
+import { ShareModule, ShareButtonsConfig, SHARE_BUTTONS_CONFIG } from '@odilo/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { ShareButton } from './share-button';

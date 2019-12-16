@@ -124,9 +124,9 @@
 <li>refactor(ShareButtons): Call <code>stateWorker$.complete()</code> on component destroy.</li>
 <li>refactor(ShareButtons): Use <code>private</code> on variables and functions when they should be.</li>
 <li>Add <code>CONTRIBUTION.md</code> for plugin development.</li>
-<li>refactor(core): Remove all FontAwesome peer packages dependencies from <code>&quot;@ngx-share/core</code>.</li>
-<li>refactor(button): Use only <code>@fortawesome/angular-fontawesome</code> as a peer dependency for <code>&quot;@ngx-share/button</code>.</li>
-<li>refactor(buttons): Use only <code>@fortawesome/angular-fontawesome</code> as a peer dependency for <code>&quot;@ngx-share/buttons</code>.</li>
+<li>refactor(core): Remove all FontAwesome peer packages dependencies from <code>&quot;@odilo/core</code>.</li>
+<li>refactor(button): Use only <code>@fortawesome/angular-fontawesome</code> as a peer dependency for <code>&quot;@odilo/button</code>.</li>
+<li>refactor(buttons): Use only <code>@fortawesome/angular-fontawesome</code> as a peer dependency for <code>&quot;@odilo/buttons</code>.</li>
 <li>refactor(util): Use Observable instead of Promise for <code>copyToClipboard()</code>.</li>
 </ul>
 <h3 id="breaking-changes-2">Breaking changes:</h3>
@@ -298,9 +298,9 @@ ShareButtonsModule.forRoot({
 <ul>
 <li><p>The package is now divided into 3 new subpackages from the scope <code>@ngx-share</code></p>
 <ul>
-<li>Share directive <code>@ngx-share/core</code></li>
-<li>Single share button <code>@ngx-share/button</code>, depends on the <code>@ngx-share/core</code></li>
-<li>Share buttons <code>@ngx-share/buttons</code>, depends on the <code>@ngx-share/core</code> and <code>@ngx-share/button</code></li>
+<li>Share directive <code>@odilo/core</code></li>
+<li>Single share button <code>@odilo/button</code>, depends on the <code>@odilo/core</code></li>
+<li>Share buttons <code>@odilo/buttons</code>, depends on the <code>@odilo/core</code> and <code>@odilo/button</code></li>
 </ul>
 </li>
 <li><p>Global options and button properties are now passed as one object</p>
@@ -317,7 +317,7 @@ ShareButtonsModule.forRoot({
 </ul>
 <h4 id="styles--themes">Styles &amp; Themes:</h4>
 <ul>
-<li>Styles and themes are now imported from <code>@ngx-share/button/styles/</code> package.</li>
+<li>Styles and themes are now imported from <code>@odilo/button/styles/</code> package.</li>
 <li>Remove <code>outline</code> and <code>special</code> themes.</li>
 </ul>
 <h2 id="414">4.1.4</h2>

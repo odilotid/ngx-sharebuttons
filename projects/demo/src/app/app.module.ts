@@ -6,7 +6,7 @@ import { NgProgressModule } from '@ngx-progressbar/core';
 import { NgProgressRouterModule } from '@ngx-progressbar/router';
 import { NgProgressHttpModule } from '@ngx-progressbar/http';
 import { HighlightModule } from 'ngx-highlightjs';
-import { SHARE_BUTTONS_CONFIG } from '@ngx-share/core';
+import { SHARE_BUTTONS_CONFIG } from '@odilo/core';
 
 import { SharedModule } from './shared';
 import { AppRoutingModule } from './app-routing.module';

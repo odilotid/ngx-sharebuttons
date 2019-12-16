@@ -332,10 +332,10 @@ Apache-2.0
  
 
 
-@ngx-share/button
+@odilo/button
 MIT
 
-@ngx-share/buttons
+@odilo/buttons
 MIT
 
 @angular/material/slide-toggle
@@ -601,7 +601,7 @@ MIT
 @ngx-progressbar/router
 MIT
 
-@ngx-share/core
+@odilo/core
 MIT
 
 hammerjs

@@ -18,3 +18,5 @@ export * from './mix';
 export * from './line';
 export * from './base';
 export * from './qq';
+export * from './weibo';
+export * from './wechat';

@@ -14,8 +14,8 @@ import { DocsService } from '../../docs/docs.service';
 })
 export class GlobalOptionsComponent implements OnInit {
 
-  code = `import { ShareButtonsModule } from '@ngx-share/buttons';
-import { ShareButtonsConfig, IShareButtons } from '@ngx-share/core';
+  code = `import { ShareButtonsModule } from '@odilo/buttons';
+import { ShareButtonsConfig, IShareButtons } from '@odilo/core';
 
 const customConfig: ShareButtonsConfig = {
   include: ['facebook', 'twitter', 'google'],
@@ -36,7 +36,7 @@ const customConfig: ShareButtonsConfig = {
   }
 }`;
 
-  global = `import { SHARE_BUTTONS_CONFIG } from '@ngx-share/core';
+  global = `import { SHARE_BUTTONS_CONFIG } from '@odilo/core';
 
 @NgModule({
   providers: [

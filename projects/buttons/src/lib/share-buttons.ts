@@ -1,5 +1,5 @@
 import { Component, Input, Output, OnInit, OnDestroy, EventEmitter, ChangeDetectionStrategy } from '@angular/core';
-import { ShareService, ShareButtonsConfig, SHARE_BUTTONS } from '@ngx-share/core';
+import { ShareService, ShareButtonsConfig, SHARE_BUTTONS } from '@odilo/core';
 import { Observable, BehaviorSubject, Subscription } from 'rxjs';
 import { map } from 'rxjs/operators';
 

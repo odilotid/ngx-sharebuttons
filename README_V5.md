@@ -5,7 +5,7 @@
 </p>
 
 [![Demo](https://img.shields.io/badge/demo-online-ed1c46.svg)](https://murhafsousli.github.io/ngx-sharebuttons/)
-[![NPM](https://img.shields.io/npm/v/@ngx-share/core.svg?maxAge=2592000?style=plastic)](https://www.npmjs.com/package/@ngx-share/core)
+[![NPM](https://img.shields.io/npm/v/@odilo/core.svg?maxAge=2592000?style=plastic)](https://www.npmjs.com/package/@odilo/core)
 [![Build Status](https://travis-ci.org/MurhafSousli/ngx-sharebuttons.svg?branch=master)](https://travis-ci.org/MurhafSousli/ngx-sharebuttons) 
 [![LICENSE](https://img.shields.io/npm/l/express.svg?maxAge=2592000)](/LICENSE)
 
@@ -38,9 +38,9 @@
 
 The plugin is divided into 3 modules to make it possible to include only the stuff you use.
 
-- [@ngx-share/core](lib/core) - Share button directive to convert any element to a share button.
-- [@ngx-share/button](lib/button) - Share button component to add buttons individually.
-- [@ngx-share/buttons](lib/buttons) - Share buttons component to add a collection of share buttons.
+- [@odilo/core](lib/core) - Share button directive to convert any element to a share button.
+- [@odilo/button](lib/button) - Share button component to add buttons individually.
+- [@odilo/buttons](lib/buttons) - Share buttons component to add a collection of share buttons.
 
 <a name="share-button-directive"/>
 
@@ -53,14 +53,14 @@ Convert any element to a share button using `[shareButton]` directive.
 **NPM**
 
 ```bash
-$ npm i -S @ngx-share/core@5.3.1
+$ npm i -S @odilo/core@5.3.1
 $ npm i -S @fortawesome/fontawesome-svg-core @fortawesome/angular-fontawesome @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons
 ```
 
 **YARN**
 
 ```bash
-$ yarn add @ngx-share/core@5.3.1
+$ yarn add @odilo/core@5.3.1
 $ yarn add @fortawesome/fontawesome-svg-core @fortawesome/angular-fontawesome @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons
 ```
 
@@ -69,7 +69,7 @@ $ yarn add @fortawesome/fontawesome-svg-core @fortawesome/angular-fontawesome @f
 Import `ShareModule` in your module
 
 ```ts
-import { ShareModule } from '@ngx-share/core';
+import { ShareModule } from '@odilo/core';
 
 @NgModule({
   imports: [
@@ -93,7 +93,7 @@ To use the default icons and colors, Inject **ShareButtons** service in your com
 Component:
 
 ```ts
-import { ShareButtons } from '@ngx-share/core';
+import { ShareButtons } from '@odilo/core';
 
 @Component({
   // ...
@@ -147,14 +147,14 @@ Use `<share-button>` component to add share buttons individually.
 **NPM**
 
 ```bash
-$ npm i -S @ngx-share/core@5.3.1 @ngx-share/button@5.3.1
+$ npm i -S @odilo/core@5.3.1 @odilo/button@5.3.1
 $ npm i -S @fortawesome/fontawesome-svg-core @fortawesome/angular-fontawesome @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons
 ```
 
 **YARN**
 
 ```bash
-$ yarn add @ngx-share/core@5.3.1 @ngx-share/button@5.3.1
+$ yarn add @odilo/core@5.3.1 @odilo/button@5.3.1
 $ yarn add @fortawesome/fontawesome-svg-core @fortawesome/angular-fontawesome @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons
 ```
 
@@ -163,7 +163,7 @@ $ yarn add @fortawesome/fontawesome-svg-core @fortawesome/angular-fontawesome @f
 Import `ShareButtonModule` in your module
 
 ```ts
-import { ShareButtonModule } from '@ngx-share/button';
+import { ShareButtonModule } from '@odilo/button';
 
 @NgModule({
   imports: [
@@ -177,8 +177,8 @@ import { ShareButtonModule } from '@ngx-share/button';
 Import core styles and theme from the global style `src/styles.scss`
 
 ```css
-@import '~@ngx-share/button/styles/share-buttons';
-@import '~@ngx-share/button/styles/themes/default/default-theme';
+@import '~@odilo/button/styles/share-buttons';
+@import '~@odilo/button/styles/themes/default/default-theme';
 ```
 
 _Check all themes [here](https://murhafsousli.github.io/ngx-sharebuttons/#/themes)_
@@ -225,14 +225,14 @@ Use `<share-buttons>` to add a collection of share buttons.
 **NPM**
 
 ```bash
-$ npm i -S @ngx-share/core@5.3.1 @ngx-share/button@5.3.1 @ngx-share/buttons@5.3.1
+$ npm i -S @odilo/core@5.3.1 @odilo/button@5.3.1 @odilo/buttons@5.3.1
 $ npm i -S @fortawesome/fontawesome-svg-core @fortawesome/angular-fontawesome @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons
 ```
 
 **YARN**
 
 ```bash
-$ yarn add @ngx-share/core@5.3.1 @ngx-share/button@5.3.1 @ngx-share/buttons@5.3.1
+$ yarn add @odilo/core@5.3.1 @odilo/button@5.3.1 @odilo/buttons@5.3.1
 $ yarn add @fortawesome/fontawesome-svg-core @fortawesome/angular-fontawesome @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons
 ```
 
@@ -241,7 +241,7 @@ $ yarn add @fortawesome/fontawesome-svg-core @fortawesome/angular-fontawesome @f
 Import `ShareButtonsModule` in your module
 
 ```ts
-import { ShareButtonsModule } from '@ngx-share/buttons';
+import { ShareButtonsModule } from '@odilo/buttons';
 
 @NgModule({
   imports: [
@@ -255,8 +255,8 @@ import { ShareButtonsModule } from '@ngx-share/buttons';
 Import icons, core styles and theme from the global style `src/styles.scss`
 
 ```css
-@import '~@ngx-share/button/styles/share-buttons';
-@import '~@ngx-share/button/styles/themes/default/default-theme';
+@import '~@odilo/button/styles/share-buttons';
+@import '~@odilo/button/styles/themes/default/default-theme';
 ```
 
 _Check [all themes](https://murhafsousli.github.io/ngx-sharebuttons/#/themes)_
@@ -298,8 +298,8 @@ Check [ShareButtons Component Demo](https://murhafsousli.github.io/ngx-sharebutt
 If you want set custom global options, pass your config in the library is imported
 
 ```ts
-import { ShareButtonsOptions } from '@ngx-share/core';
-import { ShareButtonsModule } from '@ngx-share/buttons';
+import { ShareButtonsOptions } from '@odilo/core';
+import { ShareButtonsModule } from '@odilo/buttons';
 
 const customOptions: ShareButtonsOptions = {
   include: ['facebook', 'twitter', 'google'],
@@ -352,7 +352,7 @@ When `autoSetMeta` is **true**, the meta tags inputs `url`, `title`, `descriptio
 You can change the buttons meta data such as button icon and text
 
 ```ts
-import { ShareButtonsModule } from '@ngx-share/buttons';
+import { ShareButtonsModule } from '@odilo/buttons';
 import { faFacebookSquare, faTwitterSquare } from '@fortawesome/free-brands-svg-icons';
 
 const customProp = {

@@ -1,6 +1,6 @@
 {
   "name": "@ngx-share/demo",
-  "version": "7.1.4",
+  "version": "7.2.1",
   "description": "Angular Share Buttons",
   "homepage": "http://github.com/MurhafSousli/ngx-sharebuttons",
   "author": {
@@ -59,9 +59,9 @@
     "build-prod-core": "ng build core --prod",
     "build-prod-button": "ng build button --prod",
     "build-prod-buttons": "ng build buttons --prod",
-    "link-core": "npm link dist/core && npm link @ngx-share/core",
-    "link-button": "npm link dist/button && npm link @ngx-share/button",
-    "link-buttons": "npm link dist/buttons && npm link @ngx-share/buttons",
+    "link-core": "npm link dist/core && npm link @odilo/core",
+    "link-button": "npm link dist/button && npm link @odilo/button",
+    "link-buttons": "npm link dist/buttons && npm link @odilo/buttons",
     "publish-all": "node .config/publish.js",
     "version": "node .config/version.js"
   },

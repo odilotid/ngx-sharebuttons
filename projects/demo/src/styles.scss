@@ -4,16 +4,16 @@
 @import 'assets/style/variables';
 @import 'assets/style/material';
 @import 'assets/style/code';
-@import '~@ngx-share/button/themes/modern/modern-light-theme';
-@import '~@ngx-share/button/themes/modern/modern-dark-theme';
-@import '~@ngx-share/button/themes/circles/circles-dark-theme';
-@import '~@ngx-share/button/themes/circles/circles-light-theme';
-@import '~@ngx-share/button/themes/material/material-light-theme';
-@import '~@ngx-share/button/themes/material/material-dark-theme';
-@import '~@ngx-share/button/themes/outline/outline-theme';
-@import '~@ngx-share/button/themes/classic/classic-dark-theme';
-@import '~@ngx-share/button/themes/classic/classic-light-theme';
-@import '~@ngx-share/button/themes/default/default-theme';
+@import '~@odilo/button/themes/modern/modern-light-theme';
+@import '~@odilo/button/themes/modern/modern-dark-theme';
+@import '~@odilo/button/themes/circles/circles-dark-theme';
+@import '~@odilo/button/themes/circles/circles-light-theme';
+@import '~@odilo/button/themes/material/material-light-theme';
+@import '~@odilo/button/themes/material/material-dark-theme';
+@import '~@odilo/button/themes/outline/outline-theme';
+@import '~@odilo/button/themes/classic/classic-dark-theme';
+@import '~@odilo/button/themes/classic/classic-light-theme';
+@import '~@odilo/button/themes/default/default-theme';
 @import '~highlight.js/styles/atom-one-dark.css';
 
 *:not(mat-chip) {

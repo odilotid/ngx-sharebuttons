@@ -78,14 +78,14 @@
 #### Before
 
 ```css
-@import '~@ngx-share/button/styles/share-buttons'; /** this line is no longer needed */
-@import '~@ngx-share/button/styles/themes/modern/modern-dark-theme';
+@import '~@odilo/button/styles/share-buttons'; /** this line is no longer needed */
+@import '~@odilo/button/styles/themes/modern/modern-dark-theme';
 ```
 
 #### After
 
 ```css
-@import '~@ngx-share/button/themes/modern/modern-dark-theme';
+@import '~@odilo/button/themes/modern/modern-dark-theme';
 ```
 
 ## 6.0.1
@@ -101,9 +101,9 @@
 - refactor(ShareButtons): Call `stateWorker$.complete()` on component destroy.
 - refactor(ShareButtons): Use `private` on variables and functions when they should be.
 - Add `CONTRIBUTION.md` for plugin development.
-- refactor(core): Remove all FontAwesome peer packages dependencies from `"@ngx-share/core`.
-- refactor(button): Use only `@fortawesome/angular-fontawesome` as a peer dependency for `"@ngx-share/button`.
-- refactor(buttons): Use only `@fortawesome/angular-fontawesome` as a peer dependency for `"@ngx-share/buttons`.
+- refactor(core): Remove all FontAwesome peer packages dependencies from `"@odilo/core`.
+- refactor(button): Use only `@fortawesome/angular-fontawesome` as a peer dependency for `"@odilo/button`.
+- refactor(buttons): Use only `@fortawesome/angular-fontawesome` as a peer dependency for `"@odilo/buttons`.
 - refactor(util): Use Observable instead of Promise for `copyToClipboard()`.
 
 
@@ -121,7 +121,7 @@ The plugin does not load FontAwesome icons out of the box. The user will have to
 
 Example:
 ```ts
-import { ShareButtonsModule } from '@ngx-share/buttons';
+import { ShareButtonsModule } from '@odilo/buttons';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faFacebook } from '@fortawesome/free-brand-svg-icons/faFacebook';
@@ -185,8 +185,8 @@ style.scss
 @import "~@fortawesome/fontawesome-free-webfonts/css/fa-brands.css";
 @import "~@fortawesome/fontawesome-free-webfonts/css/fa-solid.css";
 @import "~@fortawesome/fontawesome-free-webfonts/css/fontawesome.css";
-@import '~@ngx-share/button/styles/share-buttons';
-@import '~@ngx-share/button/styles/themes/default/default-theme';
+@import '~@odilo/button/styles/share-buttons';
+@import '~@odilo/button/styles/themes/default/default-theme';
 ```
 
 Override share button icon
@@ -206,8 +206,8 @@ ShareButtonsModule.forRoot({
 style.scss
 
 ```css
-@import '~@ngx-share/button/styles/share-buttons';
-@import '~@ngx-share/button/styles/themes/default/default-theme';
+@import '~@odilo/button/styles/share-buttons';
+@import '~@odilo/button/styles/themes/default/default-theme';
 ```
 
 Override share button icon
@@ -315,9 +315,9 @@ Now the meta tags are initialized from document head meta tags (og:title, og:des
 #### Main
 
 - The package is now divided into 3 new subpackages from the scope `@ngx-share`
-  - Share directive `@ngx-share/core`
-  - Single share button `@ngx-share/button`, depends on the `@ngx-share/core`
-  - Share buttons `@ngx-share/buttons`, depends on the `@ngx-share/core` and `@ngx-share/button`
+  - Share directive `@odilo/core`
+  - Single share button `@odilo/button`, depends on the `@odilo/core`
+  - Share buttons `@odilo/buttons`, depends on the `@odilo/core` and `@odilo/button`
 
 - Global options and button properties are now passed as one object
   - Before `ShareButtonsModule.forRoot(options, prop)`
@@ -330,7 +330,7 @@ Now the meta tags are initialized from document head meta tags (og:title, og:des
 
 #### Styles & Themes:
 
-- Styles and themes are now imported from `@ngx-share/button/styles/` package.
+- Styles and themes are now imported from `@odilo/button/styles/` package.
 - Remove `outline` and `special` themes.
 
 ## 4.1.4

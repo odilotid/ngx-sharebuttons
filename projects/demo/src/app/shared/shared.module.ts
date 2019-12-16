@@ -5,7 +5,7 @@ import { RouterModule } from '@angular/router';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { HighlightModule } from 'ngx-highlightjs';
 import { NgScrollbarModule } from 'ngx-scrollbar';
-import { ShareButtonsModule } from '@ngx-share/buttons';
+import { ShareButtonsModule } from '@odilo/buttons';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MaterialModule } from './material.module';
 

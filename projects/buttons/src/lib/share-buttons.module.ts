@@ -1,8 +1,8 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { ShareButtonsConfig, SHARE_BUTTONS_CONFIG } from '@ngx-share/core';
-import { ShareButtonModule } from '@ngx-share/button';
+import { ShareButtonsConfig, SHARE_BUTTONS_CONFIG } from '@odilo/core';
+import { ShareButtonModule } from '@odilo/button';
 
 import { ShareButtons } from './share-buttons';
 import { ExpandButton } from './expand-button';

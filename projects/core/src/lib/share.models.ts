@@ -64,6 +64,8 @@ export interface IShareButtons {
   print?: IShareButton;
   copy?: IShareButton;
   qq?: IShareButton;
+  weibo?: IShareButton;
+  wechat?: IShareButton;
 }
 
 /**

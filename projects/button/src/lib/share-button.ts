@@ -1,5 +1,5 @@
 import { Component, Input, Output, ViewChild, HostBinding, EventEmitter, ChangeDetectionStrategy } from '@angular/core';
-import { ShareService, ShareDirective } from '@ngx-share/core';
+import { ShareService, ShareDirective } from '@odilo/core';
 
 @Component({
   selector: 'share-button',

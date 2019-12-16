@@ -17,7 +17,9 @@ import {
   VkButton,
   WhatsappButton,
   XingButton,
-  QqButton
+  QqButton,
+  WeiboButton,
+  WeChatButton
 } from './buttons';
 import { IShareButtons } from './share.models';
 
@@ -162,5 +164,19 @@ export const SHARE_BUTTONS: IShareButtons = {
     icon: ['fab', 'qq'],
     color: '#000',
     ariaLabel: 'Share on QQ'
+  },
+  weibo: {
+    create: (a, b, c, d, e, f, g, h) => new WeiboButton(a, b, c, d, e, f, g, h),
+    text: 'Weibo',
+    icon: ['fab', 'weibo'],
+    color: '#000',
+    ariaLabel: 'Share on Weibo'
+  },
+  wechat: {
+    create: (a, b, c, d, e, f, g, h) => new WeChatButton(a, b, c, d, e, f, g, h),
+    text: 'WeChat',
+    icon: ['fab', 'weixin'],
+    color: '#000',
+    ariaLabel: 'Share on WeChat'
   },
 };

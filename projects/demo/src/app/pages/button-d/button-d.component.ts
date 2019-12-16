@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
-import { ShareService } from '@ngx-share/core';
+import { ShareService } from '@odilo/core';
 import { DocsService } from '../../docs/docs.service';
 import { ApiDatabase, ApiDataSource } from '../../docs/docs.class';
 
@@ -16,9 +16,9 @@ import { ApiDatabase, ApiDataSource } from '../../docs/docs.class';
 export class ButtonDComponent implements OnInit {
 
   code = {
-    npm: `npm i -S @ngx-share/core @angular/cdk`,
-    yarn: `yarn add @ngx-share/core @angular/cdk`,
-    import: `import { ShareModule } from '@ngx-share/core';
+    npm: `npm i -S @odilo/core @angular/cdk`,
+    yarn: `yarn add @odilo/core @angular/cdk`,
+    import: `import { ShareModule } from '@odilo/core';
 
 @NgModule({
   imports: [
@@ -27,7 +27,7 @@ export class ButtonDComponent implements OnInit {
     ShareModule
   ]
 })`,
-  service: `import { ShareButtons } from '@ngx-share/core';
+  service: `import { ShareButtons } from '@odilo/core';
 
 @Component({
   // ...
