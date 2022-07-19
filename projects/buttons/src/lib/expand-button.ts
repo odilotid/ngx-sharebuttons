@@ -6,6 +6,7 @@ import { Component, Input, Output, ElementRef, EventEmitter, ChangeDetectionStra
   template: `
     <button class="sb-wrapper sb-expand sb-show-icon"
             [style.fontSize.px]="size"
+            [attr.aria-label]="'share'"
             (click)="toggle.emit(!expanded)">
 
       <div class="sb-inner">
