@@ -39,7 +39,7 @@
     "@angular/common": ">=7.0.0",
     "rxjs": ">=6.0.0",
     "@fortawesome/angular-fontawesome": ">=0.3.0",
-    "@odilo/core": "7.2.1",
-    "@odilo/button": "7.2.1"
+    "@odilo/core": "7.2.3",
+    "@odilo/button": "7.2.3"
   }
 }
